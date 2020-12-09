@@ -1,0 +1,14 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Test runner" parallel="classes" thread-count="2">
+	
+	<test name="Api Regressions Tests" >
+
+		<classes>
+			<class name="apiTests.CompleteTests" />
+		</classes>
+	</test>
+</suite>
